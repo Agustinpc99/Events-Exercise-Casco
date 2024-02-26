@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Exercise</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex flex-wrap gap-5 justify-center items-center bg-slate-300 h-screen w-full">
+        <div class="bg-slate-300 h-[300px] w-[300px] flex flex-col gap-5 justify-center items-center border-black border">
+            <h2>Ejercicio 1</h2>
+            <div id="cuadroColor" class="bg-slate-400 h-[100px] w-[100px] rounded"></div>
+            <button id="boton" class="border border-black p-1 bg-black text-white rounded">Change</button>
+        </div>
+        <div class="bg-slate-300 h-[300px] w-[300px] flex flex-col gap-5 justify-center items-center border-black border">
+            <h2>Ejercicio 2</h2>
+            <div id="cuadroText" class="bg-slate-400 h-[100px] w-[100px] rounded"></div>
+            <input id="textej2" type="text">
+            <button id="botonreset" class="border border-black text-white bg-black rounded p-1">Reset</button>
+        </div>
+        <div class="bg-slate-300 h-[300px] w-[300px] flex gap-2 flex-col justify-center items-center border-black border">
+            <h2 class="">Ejercicio 3</h2>
+            <p>Estatura</p>
+            <span class="text-xs">En centimetros</span>
+            <input id="estatura" type="text">
+            <p>Peso</p>
+            <span class="text-xs">En kilogramos</span>
+            <input id="peso" type="text">
+            <button id="botoncalcular" class="border border-black text-white bg-black rounded p-1">Calculate</button>
+        </div>
+        <div class="bg-slate-300 h-[200px] w-[300px] flex gap-2 flex-col justify-center items-center border-black border">
+            <p>Resultado</p>
+            <span class="text-xs">Su indice de masa corporal es</span>
+            <input id="resultado" type="text">
+        </div>
+        <div class="bg-slate-300 h-[300px] w-[300px] flex gap-2 flex-col justify-center items-center border-black border">
+            <h2 class="">Ejercicio 4</h2>
+            <p>Monto moneda local</p>
+            <span class="text-xs">sin comas ni puntos.</span>
+            <input id="monedalocal" type="text">
+            <p>Monto en dolares</p>
+            <span class="text-xs">sin comas ni puntos.</span>
+            <input id="monedadolares" type="text">
+            <div>
+                <button id="botonconvertir" class="border border-black text-white bg-black rounded p-1">Convert</button>
+                <button id="botonborrar" class="border border-black text-white bg-black rounded p-1">Delete</button>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/scripts/main.js"></script>
+</body>
+</html>
